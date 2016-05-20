@@ -12,9 +12,11 @@
 		7E15EB4F1CEEE54300EC1634 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E15EB4E1CEEE54300EC1634 /* RootViewController.m */; };
 		7E15EB541CEEE54300EC1634 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E15EB531CEEE54300EC1634 /* Assets.xcassets */; };
 		7E15EB571CEEE54300EC1634 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E15EB551CEEE54300EC1634 /* LaunchScreen.storyboard */; };
+		DD8C90EDCB82EAACD72F641F /* libPods-TLContrlPageTabStrip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F368036B40730F20E466505E /* libPods-TLContrlPageTabStrip.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F85B7590939580CDAA13293 /* Pods-TLContrlPageTabStrip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLContrlPageTabStrip.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-TLContrlPageTabStrip/Pods-TLContrlPageTabStrip.debug.xcconfig"; sourceTree = "<group>"; };
 		7E15EB441CEEE54300EC1634 /* TLContrlPageTabStrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TLContrlPageTabStrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E15EB481CEEE54300EC1634 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7E15EB4A1CEEE54300EC1634 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		7E15EB531CEEE54300EC1634 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E15EB561CEEE54300EC1634 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E15EB581CEEE54300EC1634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F368036B40730F20E466505E /* libPods-TLContrlPageTabStrip.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TLContrlPageTabStrip.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F971A6899DDB1DF01E703FC4 /* Pods-TLContrlPageTabStrip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLContrlPageTabStrip.release.xcconfig"; path = "../Pods/Target Support Files/Pods-TLContrlPageTabStrip/Pods-TLContrlPageTabStrip.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD8C90EDCB82EAACD72F641F /* libPods-TLContrlPageTabStrip.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E27859B097AB83E6A45B481 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F368036B40730F20E466505E /* libPods-TLContrlPageTabStrip.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7E15EB3B1CEEE54300EC1634 = {
 			isa = PBXGroup;
 			children = (
 				7E15EB461CEEE54300EC1634 /* TLContrlPageTabStrip */,
 				7E15EB451CEEE54300EC1634 /* Products */,
+				8B04E45FF72A569981644F8A /* Pods */,
+				2E27859B097AB83E6A45B481 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,6 +91,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8B04E45FF72A569981644F8A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F85B7590939580CDAA13293 /* Pods-TLContrlPageTabStrip.debug.xcconfig */,
+				F971A6899DDB1DF01E703FC4 /* Pods-TLContrlPageTabStrip.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E15EB5B1CEEE54300EC1634 /* Build configuration list for PBXNativeTarget "TLContrlPageTabStrip" */;
 			buildPhases = (
+				E5972851D754CB9062137F3D /* 📦 Check Pods Manifest.lock */,
 				7E15EB401CEEE54300EC1634 /* Sources */,
 				7E15EB411CEEE54300EC1634 /* Frameworks */,
 				7E15EB421CEEE54300EC1634 /* Resources */,
+				1D6A265D90492E7A4CDD9A51 /* 📦 Embed Pods Frameworks */,
+				1EDC482DA3BBDDB4D43A2783 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -139,6 +166,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D6A265D90492E7A4CDD9A51 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-TLContrlPageTabStrip/Pods-TLContrlPageTabStrip-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1EDC482DA3BBDDB4D43A2783 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-TLContrlPageTabStrip/Pods-TLContrlPageTabStrip-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5972851D754CB9062137F3D /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7E15EB401CEEE54300EC1634 /* Sources */ = {
@@ -251,6 +326,7 @@
 		};
 		7E15EB5C1CEEE54300EC1634 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F85B7590939580CDAA13293 /* Pods-TLContrlPageTabStrip.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TLContrlPageTabStrip/Info.plist;
@@ -262,6 +338,7 @@
 		};
 		7E15EB5D1CEEE54300EC1634 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F971A6899DDB1DF01E703FC4 /* Pods-TLContrlPageTabStrip.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TLContrlPageTabStrip/Info.plist;
@@ -290,6 +367,7 @@
 				7E15EB5D1CEEE54300EC1634 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

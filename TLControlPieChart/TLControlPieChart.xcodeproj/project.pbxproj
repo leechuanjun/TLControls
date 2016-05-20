@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1425C05FE904AFA22FF5375D /* libPods-TLControlPieChart.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB2457D62C8BF889767B57D3 /* libPods-TLControlPieChart.a */; };
 		7E15EAEE1CED975800EC1634 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E15EAED1CED975800EC1634 /* main.m */; };
 		7E15EAF11CED975800EC1634 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E15EAF01CED975800EC1634 /* AppDelegate.m */; };
 		7E15EAF91CED975800EC1634 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E15EAF81CED975800EC1634 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C9555EFC99EAFD7E74C1CFC /* Pods-TLControlPieChart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLControlPieChart.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-TLControlPieChart/Pods-TLControlPieChart.debug.xcconfig"; sourceTree = "<group>"; };
 		7E15EAE91CED975800EC1634 /* TLControlPieChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TLControlPieChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E15EAED1CED975800EC1634 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7E15EAEF1CED975800EC1634 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -27,6 +29,8 @@
 		7E15EB041CED97AC00EC1634 /* TLPieView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLPieView.m; sourceTree = "<group>"; };
 		7E15EB061CED986A00EC1634 /* TLPieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLPieViewController.h; sourceTree = "<group>"; };
 		7E15EB071CED986A00EC1634 /* TLPieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLPieViewController.m; sourceTree = "<group>"; };
+		9C5966A552C892F22A70D2C7 /* Pods-TLControlPieChart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLControlPieChart.release.xcconfig"; path = "../Pods/Target Support Files/Pods-TLControlPieChart/Pods-TLControlPieChart.release.xcconfig"; sourceTree = "<group>"; };
+		EB2457D62C8BF889767B57D3 /* libPods-TLControlPieChart.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TLControlPieChart.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,17 +38,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1425C05FE904AFA22FF5375D /* libPods-TLControlPieChart.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A2CA4DC7F3673E850D1CD08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB2457D62C8BF889767B57D3 /* libPods-TLControlPieChart.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7E15EAE01CED975800EC1634 = {
 			isa = PBXGroup;
 			children = (
 				7E15EAEB1CED975800EC1634 /* TLControlPieChart */,
 				7E15EAEA1CED975800EC1634 /* Products */,
+				DC1330D324D8482AF9E1839E /* Pods */,
+				3A2CA4DC7F3673E850D1CD08 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +96,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		DC1330D324D8482AF9E1839E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C9555EFC99EAFD7E74C1CFC /* Pods-TLControlPieChart.debug.xcconfig */,
+				9C5966A552C892F22A70D2C7 /* Pods-TLControlPieChart.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -88,9 +112,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E15EB001CED975900EC1634 /* Build configuration list for PBXNativeTarget "TLControlPieChart" */;
 			buildPhases = (
+				0ADB1CBAFB275DA1F3C8C543 /* 📦 Check Pods Manifest.lock */,
 				7E15EAE51CED975800EC1634 /* Sources */,
 				7E15EAE61CED975800EC1634 /* Frameworks */,
 				7E15EAE71CED975800EC1634 /* Resources */,
+				B6CA63290ECE8968FCCA680F /* 📦 Embed Pods Frameworks */,
+				81D8B4E37D6ED490429AC936 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,6 +171,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0ADB1CBAFB275DA1F3C8C543 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		81D8B4E37D6ED490429AC936 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-TLControlPieChart/Pods-TLControlPieChart-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6CA63290ECE8968FCCA680F /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-TLControlPieChart/Pods-TLControlPieChart-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7E15EAE51CED975800EC1634 /* Sources */ = {
@@ -257,6 +332,7 @@
 		};
 		7E15EB011CED975900EC1634 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C9555EFC99EAFD7E74C1CFC /* Pods-TLControlPieChart.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TLControlPieChart/Info.plist;
@@ -268,6 +344,7 @@
 		};
 		7E15EB021CED975900EC1634 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C5966A552C892F22A70D2C7 /* Pods-TLControlPieChart.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TLControlPieChart/Info.plist;
