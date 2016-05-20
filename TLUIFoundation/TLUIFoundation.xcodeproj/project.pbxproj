@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E15EB6B1CEF07E100EC1634 /* TLUIFoundation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7E15EB6A1CEF07E100EC1634 /* TLUIFoundation.h */; };
+		7E15EB6D1CEF07E100EC1634 /* TLUIFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E15EB6C1CEF07E100EC1634 /* TLUIFoundation.m */; };
+		7E15EB781CEF086D00EC1634 /* XTSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E15EB771CEF086D00EC1634 /* XTSegmentControl.m */; };
+		7E15EB821CEF08F600EC1634 /* NSString+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E15EB7B1CEF08F600EC1634 /* NSString+Common.m */; };
+		7E15EB831CEF08F600EC1634 /* UIColor+expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E15EB7D1CEF08F600EC1634 /* UIColor+expanded.m */; };
+		7E15EB841CEF08F600EC1634 /* UILabel+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E15EB7F1CEF08F600EC1634 /* UILabel+Common.m */; };
+		7E15EB851CEF08F600EC1634 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E15EB811CEF08F600EC1634 /* UIView+Frame.m */; };
+		7E15EB891CEF0E3B00EC1634 /* NSString+Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E15EB7A1CEF08F600EC1634 /* NSString+Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E15EB8A1CEF0E3B00EC1634 /* UIColor+expanded.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E15EB7C1CEF08F600EC1634 /* UIColor+expanded.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E15EB8B1CEF0E3B00EC1634 /* UILabel+Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E15EB7E1CEF08F600EC1634 /* UILabel+Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E15EB8C1CEF0E3B00EC1634 /* UIView+Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E15EB801CEF08F600EC1634 /* UIView+Frame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E15EB8D1CEF0E3B00EC1634 /* XTSegmentControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E15EB761CEF086D00EC1634 /* XTSegmentControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E15EB8E1CEF0E3B00EC1634 /* TLUIFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E15EB6A1CEF07E100EC1634 /* TLUIFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E05371E1F7312E5F17D24CB1 /* libPods-TLUIFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E7FAA56AAE73D25BDC8995 /* libPods-TLUIFoundation.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7E15EB651CEF07E100EC1634 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				7E15EB6B1CEF07E100EC1634 /* TLUIFoundation.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2DB2D2F9E35F369603346A0D /* Pods-TLUIFoundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLUIFoundation.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-TLUIFoundation/Pods-TLUIFoundation.debug.xcconfig"; sourceTree = "<group>"; };
+		7E15EB671CEF07E100EC1634 /* libTLUIFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTLUIFoundation.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E15EB6A1CEF07E100EC1634 /* TLUIFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLUIFoundation.h; sourceTree = "<group>"; };
+		7E15EB6C1CEF07E100EC1634 /* TLUIFoundation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLUIFoundation.m; sourceTree = "<group>"; };
+		7E15EB741CEF086D00EC1634 /* icon_more@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_more@2x.png"; sourceTree = "<group>"; };
+		7E15EB751CEF086D00EC1634 /* icon_more@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_more@3x.png"; sourceTree = "<group>"; };
+		7E15EB761CEF086D00EC1634 /* XTSegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTSegmentControl.h; sourceTree = "<group>"; };
+		7E15EB771CEF086D00EC1634 /* XTSegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTSegmentControl.m; sourceTree = "<group>"; };
+		7E15EB7A1CEF08F600EC1634 /* NSString+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Common.h"; sourceTree = "<group>"; };
+		7E15EB7B1CEF08F600EC1634 /* NSString+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Common.m"; sourceTree = "<group>"; };
+		7E15EB7C1CEF08F600EC1634 /* UIColor+expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+expanded.h"; sourceTree = "<group>"; };
+		7E15EB7D1CEF08F600EC1634 /* UIColor+expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+expanded.m"; sourceTree = "<group>"; };
+		7E15EB7E1CEF08F600EC1634 /* UILabel+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Common.h"; sourceTree = "<group>"; };
+		7E15EB7F1CEF08F600EC1634 /* UILabel+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Common.m"; sourceTree = "<group>"; };
+		7E15EB801CEF08F600EC1634 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		7E15EB811CEF08F600EC1634 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		99E7FAA56AAE73D25BDC8995 /* libPods-TLUIFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TLUIFoundation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E25B334A746E4735E3652295 /* Pods-TLUIFoundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLUIFoundation.release.xcconfig"; path = "../Pods/Target Support Files/Pods-TLUIFoundation/Pods-TLUIFoundation.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E15EB641CEF07E100EC1634 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E05371E1F7312E5F17D24CB1 /* libPods-TLUIFoundation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		312923C7EF2C5A51E942493F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99E7FAA56AAE73D25BDC8995 /* libPods-TLUIFoundation.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74756D78C462D65A98ADC87C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DB2D2F9E35F369603346A0D /* Pods-TLUIFoundation.debug.xcconfig */,
+				E25B334A746E4735E3652295 /* Pods-TLUIFoundation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7E15EB5E1CEF07E100EC1634 = {
+			isa = PBXGroup;
+			children = (
+				7E15EB691CEF07E100EC1634 /* TLUIFoundation */,
+				7E15EB681CEF07E100EC1634 /* Products */,
+				74756D78C462D65A98ADC87C /* Pods */,
+				312923C7EF2C5A51E942493F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7E15EB681CEF07E100EC1634 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E15EB671CEF07E100EC1634 /* libTLUIFoundation.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E15EB691CEF07E100EC1634 /* TLUIFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				7E15EB791CEF08F600EC1634 /* Common */,
+				7E15EB731CEF086D00EC1634 /* XTSegmentControl */,
+				7E15EB6A1CEF07E100EC1634 /* TLUIFoundation.h */,
+				7E15EB6C1CEF07E100EC1634 /* TLUIFoundation.m */,
+			);
+			path = TLUIFoundation;
+			sourceTree = "<group>";
+		};
+		7E15EB731CEF086D00EC1634 /* XTSegmentControl */ = {
+			isa = PBXGroup;
+			children = (
+				7E15EB741CEF086D00EC1634 /* icon_more@2x.png */,
+				7E15EB751CEF086D00EC1634 /* icon_more@3x.png */,
+				7E15EB761CEF086D00EC1634 /* XTSegmentControl.h */,
+				7E15EB771CEF086D00EC1634 /* XTSegmentControl.m */,
+			);
+			path = XTSegmentControl;
+			sourceTree = "<group>";
+		};
+		7E15EB791CEF08F600EC1634 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				7E15EB7A1CEF08F600EC1634 /* NSString+Common.h */,
+				7E15EB7B1CEF08F600EC1634 /* NSString+Common.m */,
+				7E15EB7C1CEF08F600EC1634 /* UIColor+expanded.h */,
+				7E15EB7D1CEF08F600EC1634 /* UIColor+expanded.m */,
+				7E15EB7E1CEF08F600EC1634 /* UILabel+Common.h */,
+				7E15EB7F1CEF08F600EC1634 /* UILabel+Common.m */,
+				7E15EB801CEF08F600EC1634 /* UIView+Frame.h */,
+				7E15EB811CEF08F600EC1634 /* UIView+Frame.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7E15EB881CEF0E2800EC1634 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E15EB891CEF0E3B00EC1634 /* NSString+Common.h in Headers */,
+				7E15EB8A1CEF0E3B00EC1634 /* UIColor+expanded.h in Headers */,
+				7E15EB8B1CEF0E3B00EC1634 /* UILabel+Common.h in Headers */,
+				7E15EB8C1CEF0E3B00EC1634 /* UIView+Frame.h in Headers */,
+				7E15EB8D1CEF0E3B00EC1634 /* XTSegmentControl.h in Headers */,
+				7E15EB8E1CEF0E3B00EC1634 /* TLUIFoundation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7E15EB661CEF07E100EC1634 /* TLUIFoundation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E15EB701CEF07E100EC1634 /* Build configuration list for PBXNativeTarget "TLUIFoundation" */;
+			buildPhases = (
+				1FF4CAFC4DE95C9BA818B93E /* 📦 Check Pods Manifest.lock */,
+				7E15EB631CEF07E100EC1634 /* Sources */,
+				7E15EB641CEF07E100EC1634 /* Frameworks */,
+				7E15EB651CEF07E100EC1634 /* CopyFiles */,
+				4152F73623C3CB9A753ED68A /* 📦 Copy Pods Resources */,
+				7E15EB881CEF0E2800EC1634 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TLUIFoundation;
+			productName = TLUIFoundation;
+			productReference = 7E15EB671CEF07E100EC1634 /* libTLUIFoundation.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E15EB5F1CEF07E100EC1634 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = lichuanjun;
+				TargetAttributes = {
+					7E15EB661CEF07E100EC1634 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 7E15EB621CEF07E100EC1634 /* Build configuration list for PBXProject "TLUIFoundation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7E15EB5E1CEF07E100EC1634;
+			productRefGroup = 7E15EB681CEF07E100EC1634 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E15EB661CEF07E100EC1634 /* TLUIFoundation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FF4CAFC4DE95C9BA818B93E /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4152F73623C3CB9A753ED68A /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-TLUIFoundation/Pods-TLUIFoundation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E15EB631CEF07E100EC1634 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E15EB851CEF08F600EC1634 /* UIView+Frame.m in Sources */,
+				7E15EB6D1CEF07E100EC1634 /* TLUIFoundation.m in Sources */,
+				7E15EB821CEF08F600EC1634 /* NSString+Common.m in Sources */,
+				7E15EB831CEF08F600EC1634 /* UIColor+expanded.m in Sources */,
+				7E15EB841CEF08F600EC1634 /* UILabel+Common.m in Sources */,
+				7E15EB781CEF086D00EC1634 /* XTSegmentControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7E15EB6E1CEF07E100EC1634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7E15EB6F1CEF07E100EC1634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E15EB711CEF07E100EC1634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DB2D2F9E35F369603346A0D /* Pods-TLUIFoundation.debug.xcconfig */;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7E15EB721CEF07E100EC1634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E25B334A746E4735E3652295 /* Pods-TLUIFoundation.release.xcconfig */;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E15EB621CEF07E100EC1634 /* Build configuration list for PBXProject "TLUIFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E15EB6E1CEF07E100EC1634 /* Debug */,
+				7E15EB6F1CEF07E100EC1634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E15EB701CEF07E100EC1634 /* Build configuration list for PBXNativeTarget "TLUIFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E15EB711CEF07E100EC1634 /* Debug */,
+				7E15EB721CEF07E100EC1634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E15EB5F1CEF07E100EC1634 /* Project object */;
+}

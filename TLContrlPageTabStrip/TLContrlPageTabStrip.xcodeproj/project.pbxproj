@@ -12,6 +12,7 @@
 		7E15EB4F1CEEE54300EC1634 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E15EB4E1CEEE54300EC1634 /* RootViewController.m */; };
 		7E15EB541CEEE54300EC1634 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E15EB531CEEE54300EC1634 /* Assets.xcassets */; };
 		7E15EB571CEEE54300EC1634 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E15EB551CEEE54300EC1634 /* LaunchScreen.storyboard */; };
+		7E15EB871CEF09FC00EC1634 /* libTLUIFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E15EB861CEF09FC00EC1634 /* libTLUIFoundation.a */; };
 		DD8C90EDCB82EAACD72F641F /* libPods-TLContrlPageTabStrip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F368036B40730F20E466505E /* libPods-TLContrlPageTabStrip.a */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,7 @@
 		7E15EB531CEEE54300EC1634 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E15EB561CEEE54300EC1634 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E15EB581CEEE54300EC1634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E15EB861CEF09FC00EC1634 /* libTLUIFoundation.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTLUIFoundation.a; path = "../Build/Products/Debug-iphonesimulator/libTLUIFoundation.a"; sourceTree = "<group>"; };
 		F368036B40730F20E466505E /* libPods-TLContrlPageTabStrip.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TLContrlPageTabStrip.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F971A6899DDB1DF01E703FC4 /* Pods-TLContrlPageTabStrip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLContrlPageTabStrip.release.xcconfig"; path = "../Pods/Target Support Files/Pods-TLContrlPageTabStrip/Pods-TLContrlPageTabStrip.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -35,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E15EB871CEF09FC00EC1634 /* libTLUIFoundation.a in Frameworks */,
 				DD8C90EDCB82EAACD72F641F /* libPods-TLContrlPageTabStrip.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -45,6 +48,7 @@
 		2E27859B097AB83E6A45B481 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7E15EB861CEF09FC00EC1634 /* libTLUIFoundation.a */,
 				F368036B40730F20E466505E /* libPods-TLContrlPageTabStrip.a */,
 			);
 			name = Frameworks;
@@ -329,6 +333,14 @@
 			baseConfigurationReference = 6F85B7590939580CDAA13293 /* Pods-TLContrlPageTabStrip.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/DXPopover\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/iCarousel\"",
+					"\"$(SRCROOT)/../TLUIFoundation/TLUIFoundation\"",
+				);
 				INFOPLIST_FILE = TLContrlPageTabStrip/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.niwodai.TLContrlPageTabStrip;
@@ -341,6 +353,14 @@
 			baseConfigurationReference = F971A6899DDB1DF01E703FC4 /* Pods-TLContrlPageTabStrip.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/DXPopover\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/iCarousel\"",
+					"\"$(SRCROOT)/../TLUIFoundation/TLUIFoundation\"",
+				);
 				INFOPLIST_FILE = TLContrlPageTabStrip/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.niwodai.TLContrlPageTabStrip;
