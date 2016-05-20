@@ -133,7 +133,7 @@ static const CGFloat rightButtonWidth=40;
             if (self.rightButton == nil) {
                 self.rightButton=[[UIButton alloc]initWithFrame:CGRectMake(self.bounds.size.width-rightButtonWidth, self.bounds.origin.y, rightButtonWidth, self.bounds.size.height)];
                 self.rightButton.adjustsImageWhenDisabled = NO;
-                [self.rightButton setImage:[UIImage imageNamed:@"XTSegmentControl/icon_more.png"] forState:UIControlStateNormal];
+                [self.rightButton setImage:[UIImage imageNamed:@"icon_more.png"] forState:UIControlStateNormal];
                 [self.rightButton addTarget:self action:@selector(sortButtonClick:) forControlEvents:UIControlEventTouchUpInside];
                 [self addSubview:self.rightButton];
             }

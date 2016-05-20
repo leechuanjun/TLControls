@@ -12,7 +12,16 @@
 		7E15EB4F1CEEE54300EC1634 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E15EB4E1CEEE54300EC1634 /* RootViewController.m */; };
 		7E15EB541CEEE54300EC1634 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E15EB531CEEE54300EC1634 /* Assets.xcassets */; };
 		7E15EB571CEEE54300EC1634 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E15EB551CEEE54300EC1634 /* LaunchScreen.storyboard */; };
-		7E15EB871CEF09FC00EC1634 /* libTLUIFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E15EB861CEF09FC00EC1634 /* libTLUIFoundation.a */; };
+		7E15EB911CEF4F2A00EC1634 /* MenuCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E15EB901CEF4F2A00EC1634 /* MenuCollectionViewCell.m */; };
+		7E15EB941CEF500D00EC1634 /* SubViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E15EB931CEF500D00EC1634 /* SubViewController1.m */; };
+		7E15EB971CEF501C00EC1634 /* SubViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E15EB961CEF501C00EC1634 /* SubViewController2.m */; };
+		7E15EBA11CEF562000EC1634 /* NSString+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E15EB9A1CEF562000EC1634 /* NSString+Common.m */; };
+		7E15EBA21CEF562000EC1634 /* UIColor+expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E15EB9C1CEF562000EC1634 /* UIColor+expanded.m */; };
+		7E15EBA31CEF562000EC1634 /* UILabel+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E15EB9E1CEF562000EC1634 /* UILabel+Common.m */; };
+		7E15EBA41CEF562000EC1634 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E15EBA01CEF562000EC1634 /* UIView+Frame.m */; };
+		7E15EBAA1CEF562900EC1634 /* icon_more@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E15EBA61CEF562900EC1634 /* icon_more@2x.png */; };
+		7E15EBAB1CEF562900EC1634 /* icon_more@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E15EBA71CEF562900EC1634 /* icon_more@3x.png */; };
+		7E15EBAC1CEF562900EC1634 /* XTSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E15EBA91CEF562900EC1634 /* XTSegmentControl.m */; };
 		DD8C90EDCB82EAACD72F641F /* libPods-TLContrlPageTabStrip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F368036B40730F20E466505E /* libPods-TLContrlPageTabStrip.a */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +37,24 @@
 		7E15EB561CEEE54300EC1634 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E15EB581CEEE54300EC1634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E15EB861CEF09FC00EC1634 /* libTLUIFoundation.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTLUIFoundation.a; path = "../Build/Products/Debug-iphonesimulator/libTLUIFoundation.a"; sourceTree = "<group>"; };
+		7E15EB8F1CEF4F2A00EC1634 /* MenuCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuCollectionViewCell.h; sourceTree = "<group>"; };
+		7E15EB901CEF4F2A00EC1634 /* MenuCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuCollectionViewCell.m; sourceTree = "<group>"; };
+		7E15EB921CEF500D00EC1634 /* SubViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubViewController1.h; sourceTree = "<group>"; };
+		7E15EB931CEF500D00EC1634 /* SubViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubViewController1.m; sourceTree = "<group>"; };
+		7E15EB951CEF501C00EC1634 /* SubViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubViewController2.h; sourceTree = "<group>"; };
+		7E15EB961CEF501C00EC1634 /* SubViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubViewController2.m; sourceTree = "<group>"; };
+		7E15EB991CEF562000EC1634 /* NSString+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Common.h"; sourceTree = "<group>"; };
+		7E15EB9A1CEF562000EC1634 /* NSString+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Common.m"; sourceTree = "<group>"; };
+		7E15EB9B1CEF562000EC1634 /* UIColor+expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+expanded.h"; sourceTree = "<group>"; };
+		7E15EB9C1CEF562000EC1634 /* UIColor+expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+expanded.m"; sourceTree = "<group>"; };
+		7E15EB9D1CEF562000EC1634 /* UILabel+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Common.h"; sourceTree = "<group>"; };
+		7E15EB9E1CEF562000EC1634 /* UILabel+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Common.m"; sourceTree = "<group>"; };
+		7E15EB9F1CEF562000EC1634 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		7E15EBA01CEF562000EC1634 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		7E15EBA61CEF562900EC1634 /* icon_more@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_more@2x.png"; sourceTree = "<group>"; };
+		7E15EBA71CEF562900EC1634 /* icon_more@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_more@3x.png"; sourceTree = "<group>"; };
+		7E15EBA81CEF562900EC1634 /* XTSegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTSegmentControl.h; sourceTree = "<group>"; };
+		7E15EBA91CEF562900EC1634 /* XTSegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTSegmentControl.m; sourceTree = "<group>"; };
 		F368036B40730F20E466505E /* libPods-TLContrlPageTabStrip.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TLContrlPageTabStrip.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F971A6899DDB1DF01E703FC4 /* Pods-TLContrlPageTabStrip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLContrlPageTabStrip.release.xcconfig"; path = "../Pods/Target Support Files/Pods-TLContrlPageTabStrip/Pods-TLContrlPageTabStrip.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -37,7 +64,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E15EB871CEF09FC00EC1634 /* libTLUIFoundation.a in Frameworks */,
 				DD8C90EDCB82EAACD72F641F /* libPods-TLContrlPageTabStrip.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -75,14 +101,22 @@
 		7E15EB461CEEE54300EC1634 /* TLContrlPageTabStrip */ = {
 			isa = PBXGroup;
 			children = (
+				7E15EBA51CEF562900EC1634 /* XTSegmentControl */,
+				7E15EB981CEF562000EC1634 /* Common */,
 				7E15EB4A1CEEE54300EC1634 /* AppDelegate.h */,
 				7E15EB4B1CEEE54300EC1634 /* AppDelegate.m */,
 				7E15EB4D1CEEE54300EC1634 /* RootViewController.h */,
 				7E15EB4E1CEEE54300EC1634 /* RootViewController.m */,
+				7E15EB8F1CEF4F2A00EC1634 /* MenuCollectionViewCell.h */,
+				7E15EB901CEF4F2A00EC1634 /* MenuCollectionViewCell.m */,
 				7E15EB531CEEE54300EC1634 /* Assets.xcassets */,
 				7E15EB551CEEE54300EC1634 /* LaunchScreen.storyboard */,
 				7E15EB581CEEE54300EC1634 /* Info.plist */,
 				7E15EB471CEEE54300EC1634 /* Supporting Files */,
+				7E15EB921CEF500D00EC1634 /* SubViewController1.h */,
+				7E15EB931CEF500D00EC1634 /* SubViewController1.m */,
+				7E15EB951CEF501C00EC1634 /* SubViewController2.h */,
+				7E15EB961CEF501C00EC1634 /* SubViewController2.m */,
 			);
 			path = TLContrlPageTabStrip;
 			sourceTree = "<group>";
@@ -93,6 +127,32 @@
 				7E15EB481CEEE54300EC1634 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E15EB981CEF562000EC1634 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				7E15EB991CEF562000EC1634 /* NSString+Common.h */,
+				7E15EB9A1CEF562000EC1634 /* NSString+Common.m */,
+				7E15EB9B1CEF562000EC1634 /* UIColor+expanded.h */,
+				7E15EB9C1CEF562000EC1634 /* UIColor+expanded.m */,
+				7E15EB9D1CEF562000EC1634 /* UILabel+Common.h */,
+				7E15EB9E1CEF562000EC1634 /* UILabel+Common.m */,
+				7E15EB9F1CEF562000EC1634 /* UIView+Frame.h */,
+				7E15EBA01CEF562000EC1634 /* UIView+Frame.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		7E15EBA51CEF562900EC1634 /* XTSegmentControl */ = {
+			isa = PBXGroup;
+			children = (
+				7E15EBA61CEF562900EC1634 /* icon_more@2x.png */,
+				7E15EBA71CEF562900EC1634 /* icon_more@3x.png */,
+				7E15EBA81CEF562900EC1634 /* XTSegmentControl.h */,
+				7E15EBA91CEF562900EC1634 /* XTSegmentControl.m */,
+			);
+			path = XTSegmentControl;
 			sourceTree = "<group>";
 		};
 		8B04E45FF72A569981644F8A /* Pods */ = {
@@ -164,6 +224,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E15EBAA1CEF562900EC1634 /* icon_more@2x.png in Resources */,
+				7E15EBAB1CEF562900EC1634 /* icon_more@3x.png in Resources */,
 				7E15EB571CEEE54300EC1634 /* LaunchScreen.storyboard in Resources */,
 				7E15EB541CEEE54300EC1634 /* Assets.xcassets in Resources */,
 			);
@@ -224,9 +286,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E15EBAC1CEF562900EC1634 /* XTSegmentControl.m in Sources */,
+				7E15EB971CEF501C00EC1634 /* SubViewController2.m in Sources */,
 				7E15EB4F1CEEE54300EC1634 /* RootViewController.m in Sources */,
+				7E15EBA11CEF562000EC1634 /* NSString+Common.m in Sources */,
+				7E15EBA31CEF562000EC1634 /* UILabel+Common.m in Sources */,
+				7E15EB941CEF500D00EC1634 /* SubViewController1.m in Sources */,
 				7E15EB4C1CEEE54300EC1634 /* AppDelegate.m in Sources */,
 				7E15EB491CEEE54300EC1634 /* main.m in Sources */,
+				7E15EBA21CEF562000EC1634 /* UIColor+expanded.m in Sources */,
+				7E15EBA41CEF562000EC1634 /* UIView+Frame.m in Sources */,
+				7E15EB911CEF4F2A00EC1634 /* MenuCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,7 +409,6 @@
 					"\"${PODS_ROOT}/Headers/Public/DXPopover\"",
 					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
 					"\"${PODS_ROOT}/Headers/Public/iCarousel\"",
-					"\"$(SRCROOT)/../TLUIFoundation/TLUIFoundation\"",
 				);
 				INFOPLIST_FILE = TLContrlPageTabStrip/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -359,7 +428,6 @@
 					"\"${PODS_ROOT}/Headers/Public/DXPopover\"",
 					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
 					"\"${PODS_ROOT}/Headers/Public/iCarousel\"",
-					"\"$(SRCROOT)/../TLUIFoundation/TLUIFoundation\"",
 				);
 				INFOPLIST_FILE = TLContrlPageTabStrip/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

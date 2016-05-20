@@ -19,18 +19,18 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     //初始化页面
-//    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-//    RootViewController *rootView = [[RootViewController alloc] init];
-//    rootView.view.backgroundColor = [UIColor grayColor];
-//    self.window.rootViewController = rootView;
-//    [self.window makeKeyAndVisible];
-    
-    
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.window.backgroundColor = [UIColor whiteColor];
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    RootViewController *rootView = [[RootViewController alloc] init];
+    rootView.view.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = rootView;
     [self.window makeKeyAndVisible];
-    UINavigationController *nav=[[UINavigationController alloc]initWithRootViewController:[[RootViewController alloc]init]];
-    self.window.rootViewController=nav;
+    
+    
+//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+//    self.window.backgroundColor = [UIColor whiteColor];
+//    [self.window makeKeyAndVisible];
+//    UINavigationController *nav=[[UINavigationController alloc]initWithRootViewController:[[RootViewController alloc]init]];
+//    self.window.rootViewController=nav;
     
     return YES;
 }
