@@ -11,7 +11,6 @@
 #import "Common/UILabel+Common.h"
 #import "Common/UIColor+expanded.h"
 #import "Common/UIView+Frame.h"
-#import "XTSegmentControl/XTSegmentControl.h"
 
 @interface TLUIFoundation : NSObject
 

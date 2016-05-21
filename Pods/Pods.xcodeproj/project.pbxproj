@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1098DC9ADFC2D0F87995F1B91C01E04A /* iCarousel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C6778C8BCDFB6B3680E97DFCBECB4AF /* iCarousel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		18A05F45A8307B5C37283C30FC49C168 /* Pods-TLContrlPageTabStrip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 172599E6932C00627C37BFB918311552 /* Pods-TLContrlPageTabStrip-dummy.m */; };
+		18A05F45A8307B5C37283C30FC49C168 /* Pods-TLContrlPageTabStrip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 141F48017DFD33CAA223BF444046BF04 /* Pods-TLContrlPageTabStrip-dummy.m */; };
 		2905381350CEFFBFFA9BC8B5D027F190 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 47952636F58D0A814858923F1C62A35E /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2979E54C4AFD27076576E82ADEED2F00 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D7B1B59DA22E96A5784BD3A32ED22977 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CDC8C75950EA195B984635CBEF6A36F /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F2E6DD11512658D9A7BF835DC5CFA6 /* iCarousel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
@@ -16,10 +16,11 @@
 		335DCBC17D2469F228020EF6C7B41F7C /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 351FBD38842959DDE6AA5ACD80B82EBE /* MASConstraintMaker.m */; };
 		3F63C119F95A6735AE627BBB1BEBC4B1 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = F714045C50127439CE68BF3099A0ED63 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		432BD50F1E699EDF2EA007E850FFCEF7 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B213B9B208192F0552D8315FD06085 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46AAFA25D98F6A6E7F4583BFC9862DC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */; };
 		4732E1A3174C1E13E62EBCAEB9CA2E2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */; };
 		5457FCC2699281B5A4203BA1559F593F /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A13E6A86C81AD8466E06A8D694BF44 /* NSArray+MASAdditions.m */; };
 		56AF9C095945D6DD69A7BD44B36DA4B5 /* DXPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F15577292EBA6BCEA99D4109A8027EE /* DXPopover.m */; };
-		5D3B6F639F76286C32004820C4826AED /* Pods-TLControlPieChart-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B276F3EBE9168C0BCFC458F8890D49 /* Pods-TLControlPieChart-dummy.m */; };
+		5D3B6F639F76286C32004820C4826AED /* Pods-TLControlPieChart-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4FD520C2F4F2DEBBEDEE02418CBAF5 /* Pods-TLControlPieChart-dummy.m */; };
 		81403CAF6C4C1D3DC8B199289C3A6F59 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B3BE6C0ADC6D23E637945DAECBD1E6 /* View+MASAdditions.m */; };
 		81599471BAB0420D54E1ADF8507A5113 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 341795B304BF0490A550DFAB503F1973 /* Masonry-dummy.m */; };
 		9205037BA8C22574B33FC96C5EA829A3 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C3D268620379A34EB77223ECD07B0C /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -38,6 +39,7 @@
 		C6EE194D232E9FE87097C0F1DF91B9FA /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = CD0BF3F46C0D6C4A95566F0B1069C678 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D07BF1DAB0B69C38D890E850B3B58803 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23016F69B2480F44D0BB5526B39192FA /* QuartzCore.framework */; };
 		D3D9F12613E23AD64C1FA5F7081A3668 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9C2865F301F5AA819655C8127712C3 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		D9226F5BE3838B5AAFF247762B86A888 /* Pods-TLUIFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A64356072E62A20C0FFDF06A9B4BD204 /* Pods-TLUIFoundation-dummy.m */; };
 		DD1F717B0527C71229B3339324E35E55 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 31F789D04BE634388AA3EC2790F0A0E4 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE01EFFCD70B40229A336F4B6F9B5B37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */; };
 		DE31B168D9197213CEB7B90E3ADEB4CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */; };
@@ -83,18 +85,24 @@
 
 /* Begin PBXFileReference section */
 		00A4BED3D57EC4D2F022096A2733CB74 /* DXPopover.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DXPopover.h; path = Pod/Classes/DXPopover.h; sourceTree = "<group>"; };
-		0132396BBD06559DA01A51623B74DC37 /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		029E0CD4839EF61426B0335A8E29CB14 /* DXPopover-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DXPopover-dummy.m"; sourceTree = "<group>"; };
 		02B3BE6C0ADC6D23E637945DAECBD1E6 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		04E9C5B00AD519EA701A96635EF44591 /* Pods-TLUIFoundation-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TLUIFoundation-acknowledgements.plist"; sourceTree = "<group>"; };
+		0568F2E118B2170ADDDC35696917AAB2 /* Pods-TLContrlPageTabStrip-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TLContrlPageTabStrip-resources.sh"; sourceTree = "<group>"; };
 		091D54A73E1E8BB182C9D7D245AF1C2F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		0D5FA37259EABF0ECB4669EB9CDEA039 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		1001C7FB4B8D7070EADDCC87F960C28B /* Pods-TLControlPieChart-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TLControlPieChart-frameworks.sh"; sourceTree = "<group>"; };
 		11D2EA643BB443DE9ABAC5281E148F6A /* iCarousel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iCarousel-dummy.m"; sourceTree = "<group>"; };
-		172599E6932C00627C37BFB918311552 /* Pods-TLContrlPageTabStrip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TLContrlPageTabStrip-dummy.m"; sourceTree = "<group>"; };
+		125A963F57443D9A2881BCE1408D1B65 /* Pods-TLUIFoundation-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TLUIFoundation-acknowledgements.markdown"; sourceTree = "<group>"; };
+		13A778AD82708E322D50273C67E28624 /* libPods-TLContrlPageTabStrip.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TLContrlPageTabStrip.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		141F48017DFD33CAA223BF444046BF04 /* Pods-TLContrlPageTabStrip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TLContrlPageTabStrip-dummy.m"; sourceTree = "<group>"; };
 		1BF2A7CC6EFCB90E5D105874B8005F3F /* iCarousel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iCarousel-prefix.pch"; sourceTree = "<group>"; };
+		1D1B31689195177DEE203B750A304B53 /* Pods-TLUIFoundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLUIFoundation.debug.xcconfig"; sourceTree = "<group>"; };
 		1EED56C6D4DA3D753F1D69B450E31638 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		23016F69B2480F44D0BB5526B39192FA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		24AE747AFD7DDA0ADBFE58CB5C159F44 /* DXPopover-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DXPopover-prefix.pch"; sourceTree = "<group>"; };
-		2AEE3BAE08B4E221957260A3DD65EC2E /* libiCarousel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libiCarousel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2793D26A64510F50D38DDCBB83DC5443 /* Pods-TLControlPieChart-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TLControlPieChart-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2932626636FA2B8B82C9C49545D2C9DB /* DXPopover.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DXPopover.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		304F8EA6632FA4427507DDF1B2F46FC1 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		31F789D04BE634388AA3EC2790F0A0E4 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
 		341795B304BF0490A550DFAB503F1973 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
@@ -102,31 +110,35 @@
 		38C3D268620379A34EB77223ECD07B0C /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
 		3BF9E8E258F3B2F1B2548BE03446996F /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
 		47952636F58D0A814858923F1C62A35E /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		49FC9BA082151E745FFAD8B083DA0ADB /* Pods-TLContrlPageTabStrip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLContrlPageTabStrip.debug.xcconfig"; sourceTree = "<group>"; };
+		4B032CD7F2DB8AFB67211B2458616971 /* Pods-TLContrlPageTabStrip-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TLContrlPageTabStrip-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4C6778C8BCDFB6B3680E97DFCBECB4AF /* iCarousel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iCarousel.h; path = iCarousel/iCarousel.h; sourceTree = "<group>"; };
 		4F15577292EBA6BCEA99D4109A8027EE /* DXPopover.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DXPopover.m; path = Pod/Classes/DXPopover.m; sourceTree = "<group>"; };
-		531B8176491A2304A491278D44CB056F /* Pods-TLControlPieChart-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TLControlPieChart-resources.sh"; sourceTree = "<group>"; };
-		58AC74B336A54F6F99AC9584F4DBF3D3 /* Pods-TLContrlPageTabStrip-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TLContrlPageTabStrip-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5A0BC74CFE704BAB99D72EFA6BF04B62 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
 		5E9C2865F301F5AA819655C8127712C3 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		65CE013CDD6DB007354CE6A96F35F059 /* Pods-TLContrlPageTabStrip-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TLContrlPageTabStrip-acknowledgements.plist"; sourceTree = "<group>"; };
-		6B1158D98D3112BA36A3FE55708FEEE1 /* libPods-TLControlPieChart.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TLControlPieChart.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6CD1152F70234C96F5748A6E5BD0C20B /* libPods-TLContrlPageTabStrip.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TLContrlPageTabStrip.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7416C90937EF5ECD2A22CE0FE086AAED /* DXPopover.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DXPopover.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A4FD520C2F4F2DEBBEDEE02418CBAF5 /* Pods-TLControlPieChart-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TLControlPieChart-dummy.m"; sourceTree = "<group>"; };
+		706D8772C0B6A9A65878F2A9B08DF90E /* Pods-TLUIFoundation-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TLUIFoundation-frameworks.sh"; sourceTree = "<group>"; };
+		73D1F05B73CE591275BA57A33E74FECC /* Pods-TLControlPieChart-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TLControlPieChart-acknowledgements.plist"; sourceTree = "<group>"; };
 		748231F24F01A82DF5C3BA871466BA4F /* iCarousel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iCarousel.xcconfig; sourceTree = "<group>"; };
+		74FBDD24BD03537A21B9939F965FA97E /* Pods-TLContrlPageTabStrip-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TLContrlPageTabStrip-frameworks.sh"; sourceTree = "<group>"; };
 		764920DF4A42B1227FB4256BE7F2F90F /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		7710ED21F32D61674DF0211317E4BF35 /* libPods-TLUIFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TLUIFoundation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B07A0F214B975A314B5D40E9E62203B /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		7D954914771DA455E6145A6DC9B9EF0C /* Pods-TLContrlPageTabStrip-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TLContrlPageTabStrip-resources.sh"; sourceTree = "<group>"; };
+		7DA5DB99B58082F239C06C5EDFA7A505 /* Pods-TLControlPieChart-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TLControlPieChart-resources.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		940B4A34CF6732C1423A00F6B2EC0D04 /* Pods-TLContrlPageTabStrip-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TLContrlPageTabStrip-frameworks.sh"; sourceTree = "<group>"; };
-		A02B3406B7D2B4553EFFFAAC34936C2F /* Pods-TLControlPieChart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLControlPieChart.release.xcconfig"; sourceTree = "<group>"; };
-		A439EA5B9F1A3386259CFE97F554A541 /* Pods-TLControlPieChart-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TLControlPieChart-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9548B972791E7C3AEA87B361AED2749D /* Pods-TLUIFoundation-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TLUIFoundation-resources.sh"; sourceTree = "<group>"; };
 		A472920CF26EB12597D6B2E17E86437E /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
+		A64356072E62A20C0FFDF06A9B4BD204 /* Pods-TLUIFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TLUIFoundation-dummy.m"; sourceTree = "<group>"; };
+		A80DD471E54C7FE30309646D3158FB29 /* Pods-TLControlPieChart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLControlPieChart.debug.xcconfig"; sourceTree = "<group>"; };
 		A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		ABC952B89F5F4AD19DD2A3E3C0A8F42F /* Pods-TLContrlPageTabStrip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLContrlPageTabStrip.release.xcconfig"; sourceTree = "<group>"; };
-		AC51004E70818E31559CAC3B74B62F7D /* Pods-TLControlPieChart-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TLControlPieChart-frameworks.sh"; sourceTree = "<group>"; };
 		AE81337A370FF84A08E3A7D8636688FA /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
 		B462ED48CFD34D1E1C3DAF0EF040286C /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		C107806F1A3A7D060F85C1202D7FE55C /* libDXPopover.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDXPopover.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB0BF1B0C2D8B1FD302F3A22208B0496 /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB95656325E4BDF73546414542584FC /* Pods-TLContrlPageTabStrip-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TLContrlPageTabStrip-acknowledgements.plist"; sourceTree = "<group>"; };
+		CCE999786673140014C3FB379E529878 /* Pods-TLContrlPageTabStrip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLContrlPageTabStrip.release.xcconfig"; sourceTree = "<group>"; };
 		CD0BF3F46C0D6C4A95566F0B1069C678 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		CF7AC7A58CC84682E1BD1BFEE4B762A1 /* Pods-TLControlPieChart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLControlPieChart.release.xcconfig"; sourceTree = "<group>"; };
 		D2F2E6DD11512658D9A7BF835DC5CFA6 /* iCarousel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = iCarousel.m; path = iCarousel/iCarousel.m; sourceTree = "<group>"; };
 		D4046E24E9556FBFF6C005116123BA79 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
 		D7B1B59DA22E96A5784BD3A32ED22977 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
@@ -134,15 +146,13 @@
 		E0C2F1D2EDAD5353D393EE12ACAE72C2 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
 		E17B03886DEB3EA2A9940B327624A43C /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
 		E1B213B9B208192F0552D8315FD06085 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		E53AE35AEE37549CB147BA13F8CFCCCB /* Pods-TLControlPieChart-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TLControlPieChart-acknowledgements.plist"; sourceTree = "<group>"; };
-		E561CD196203E051F3B696DF50B5B1F4 /* Pods-TLContrlPageTabStrip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLContrlPageTabStrip.debug.xcconfig"; sourceTree = "<group>"; };
 		E84155A5BCB195F44813C0FEDE353620 /* DXPopover.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DXPopover.xcconfig; sourceTree = "<group>"; };
-		EB3F79171C26B2D112B0CFD0DFBAB698 /* Pods-TLControlPieChart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLControlPieChart.debug.xcconfig"; sourceTree = "<group>"; };
+		EB3E7898A352DAFD78629DD961E75094 /* Pods-TLUIFoundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLUIFoundation.release.xcconfig"; sourceTree = "<group>"; };
+		EEFD66D1CD2B85BF4864503039364E1F /* libPods-TLControlPieChart.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TLControlPieChart.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3A13E6A86C81AD8466E06A8D694BF44 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
 		F540281E8896F7356C24FB121C7F43E8 /* ResourceBundle-DXPopover-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-DXPopover-Info.plist"; sourceTree = "<group>"; };
 		F714045C50127439CE68BF3099A0ED63 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
-		F8502A74317D376C1FF99EBC4F9AFC8C /* libDXPopover.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDXPopover.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8B276F3EBE9168C0BCFC458F8890D49 /* Pods-TLControlPieChart-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TLControlPieChart-dummy.m"; sourceTree = "<group>"; };
+		FAED4E9E7FC3DE89BDD7ED091968340B /* libiCarousel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libiCarousel.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF0254280595D81EFB8ECE7A7FD77364 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
 		FFA375542EB486A790E1FC709B06A567 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -180,6 +190,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C68A0A8B11CAB2DFBCAF8C3CBEF50343 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46AAFA25D98F6A6E7F4583BFC9862DC7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CBCF0828B4D57D45B5C5FEDB09832877 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -200,6 +218,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11304F207BF54495F3DC85EB2AB03166 /* Pods-TLControlPieChart */ = {
+			isa = PBXGroup;
+			children = (
+				2793D26A64510F50D38DDCBB83DC5443 /* Pods-TLControlPieChart-acknowledgements.markdown */,
+				73D1F05B73CE591275BA57A33E74FECC /* Pods-TLControlPieChart-acknowledgements.plist */,
+				6A4FD520C2F4F2DEBBEDEE02418CBAF5 /* Pods-TLControlPieChart-dummy.m */,
+				1001C7FB4B8D7070EADDCC87F960C28B /* Pods-TLControlPieChart-frameworks.sh */,
+				7DA5DB99B58082F239C06C5EDFA7A505 /* Pods-TLControlPieChart-resources.sh */,
+				A80DD471E54C7FE30309646D3158FB29 /* Pods-TLControlPieChart.debug.xcconfig */,
+				CF7AC7A58CC84682E1BD1BFEE4B762A1 /* Pods-TLControlPieChart.release.xcconfig */,
+			);
+			name = "Pods-TLControlPieChart";
+			path = "Target Support Files/Pods-TLControlPieChart";
+			sourceTree = "<group>";
+		};
 		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -218,17 +251,19 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		5D1F74B92E098DECA43028AD0EC7B0A0 /* Products */ = {
+		600811EA36A23C5609C03837B7EAF0F5 /* Pods-TLContrlPageTabStrip */ = {
 			isa = PBXGroup;
 			children = (
-				7416C90937EF5ECD2A22CE0FE086AAED /* DXPopover.bundle */,
-				F8502A74317D376C1FF99EBC4F9AFC8C /* libDXPopover.a */,
-				2AEE3BAE08B4E221957260A3DD65EC2E /* libiCarousel.a */,
-				0132396BBD06559DA01A51623B74DC37 /* libMasonry.a */,
-				6CD1152F70234C96F5748A6E5BD0C20B /* libPods-TLContrlPageTabStrip.a */,
-				6B1158D98D3112BA36A3FE55708FEEE1 /* libPods-TLControlPieChart.a */,
+				4B032CD7F2DB8AFB67211B2458616971 /* Pods-TLContrlPageTabStrip-acknowledgements.markdown */,
+				CCB95656325E4BDF73546414542584FC /* Pods-TLContrlPageTabStrip-acknowledgements.plist */,
+				141F48017DFD33CAA223BF444046BF04 /* Pods-TLContrlPageTabStrip-dummy.m */,
+				74FBDD24BD03537A21B9939F965FA97E /* Pods-TLContrlPageTabStrip-frameworks.sh */,
+				0568F2E118B2170ADDDC35696917AAB2 /* Pods-TLContrlPageTabStrip-resources.sh */,
+				49FC9BA082151E745FFAD8B083DA0ADB /* Pods-TLContrlPageTabStrip.debug.xcconfig */,
+				CCE999786673140014C3FB379E529878 /* Pods-TLContrlPageTabStrip.release.xcconfig */,
 			);
-			name = Products;
+			name = "Pods-TLContrlPageTabStrip";
+			path = "Target Support Files/Pods-TLContrlPageTabStrip";
 			sourceTree = "<group>";
 		};
 		6D7BA8BFC31A2FF7861826B9350D1527 /* DXPopover */ = {
@@ -241,19 +276,14 @@
 			path = DXPopover;
 			sourceTree = "<group>";
 		};
-		79DF19E8954E237B14E68406E5F26F0E /* Pods-TLContrlPageTabStrip */ = {
+		6FB6C96075459B93AE8AC8F16F57F059 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				58AC74B336A54F6F99AC9584F4DBF3D3 /* Pods-TLContrlPageTabStrip-acknowledgements.markdown */,
-				65CE013CDD6DB007354CE6A96F35F059 /* Pods-TLContrlPageTabStrip-acknowledgements.plist */,
-				172599E6932C00627C37BFB918311552 /* Pods-TLContrlPageTabStrip-dummy.m */,
-				940B4A34CF6732C1423A00F6B2EC0D04 /* Pods-TLContrlPageTabStrip-frameworks.sh */,
-				7D954914771DA455E6145A6DC9B9EF0C /* Pods-TLContrlPageTabStrip-resources.sh */,
-				E561CD196203E051F3B696DF50B5B1F4 /* Pods-TLContrlPageTabStrip.debug.xcconfig */,
-				ABC952B89F5F4AD19DD2A3E3C0A8F42F /* Pods-TLContrlPageTabStrip.release.xcconfig */,
+				600811EA36A23C5609C03837B7EAF0F5 /* Pods-TLContrlPageTabStrip */,
+				11304F207BF54495F3DC85EB2AB03166 /* Pods-TLControlPieChart */,
+				9FAD4BD1729B89B09097835CB01CD6B3 /* Pods-TLUIFoundation */,
 			);
-			name = "Pods-TLContrlPageTabStrip";
-			path = "Target Support Files/Pods-TLContrlPageTabStrip";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -262,8 +292,8 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
 				142817092B1A29EEC38B2C9A7E6DAF6F /* Pods */,
-				5D1F74B92E098DECA43028AD0EC7B0A0 /* Products */,
-				BF4BBB1411C980D984D3E7364E69D4CA /* Targets Support Files */,
+				D3451200B95EE9668C7DB0C687DC6DE0 /* Products */,
+				6FB6C96075459B93AE8AC8F16F57F059 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -279,19 +309,19 @@
 			path = "../Target Support Files/DXPopover";
 			sourceTree = "<group>";
 		};
-		9EC9CDB44E3D02DA0542A8399B0897C8 /* Pods-TLControlPieChart */ = {
+		9FAD4BD1729B89B09097835CB01CD6B3 /* Pods-TLUIFoundation */ = {
 			isa = PBXGroup;
 			children = (
-				A439EA5B9F1A3386259CFE97F554A541 /* Pods-TLControlPieChart-acknowledgements.markdown */,
-				E53AE35AEE37549CB147BA13F8CFCCCB /* Pods-TLControlPieChart-acknowledgements.plist */,
-				F8B276F3EBE9168C0BCFC458F8890D49 /* Pods-TLControlPieChart-dummy.m */,
-				AC51004E70818E31559CAC3B74B62F7D /* Pods-TLControlPieChart-frameworks.sh */,
-				531B8176491A2304A491278D44CB056F /* Pods-TLControlPieChart-resources.sh */,
-				EB3F79171C26B2D112B0CFD0DFBAB698 /* Pods-TLControlPieChart.debug.xcconfig */,
-				A02B3406B7D2B4553EFFFAAC34936C2F /* Pods-TLControlPieChart.release.xcconfig */,
+				125A963F57443D9A2881BCE1408D1B65 /* Pods-TLUIFoundation-acknowledgements.markdown */,
+				04E9C5B00AD519EA701A96635EF44591 /* Pods-TLUIFoundation-acknowledgements.plist */,
+				A64356072E62A20C0FFDF06A9B4BD204 /* Pods-TLUIFoundation-dummy.m */,
+				706D8772C0B6A9A65878F2A9B08DF90E /* Pods-TLUIFoundation-frameworks.sh */,
+				9548B972791E7C3AEA87B361AED2749D /* Pods-TLUIFoundation-resources.sh */,
+				1D1B31689195177DEE203B750A304B53 /* Pods-TLUIFoundation.debug.xcconfig */,
+				EB3E7898A352DAFD78629DD961E75094 /* Pods-TLUIFoundation.release.xcconfig */,
 			);
-			name = "Pods-TLControlPieChart";
-			path = "Target Support Files/Pods-TLControlPieChart";
+			name = "Pods-TLUIFoundation";
+			path = "Target Support Files/Pods-TLUIFoundation";
 			sourceTree = "<group>";
 		};
 		A7139D063878A69F1264EB1FF71F64EF /* iCarousel */ = {
@@ -302,15 +332,6 @@
 				F4A6EC0CF11B57893C72062DAD63AE4B /* Support Files */,
 			);
 			path = iCarousel;
-			sourceTree = "<group>";
-		};
-		BF4BBB1411C980D984D3E7364E69D4CA /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				79DF19E8954E237B14E68406E5F26F0E /* Pods-TLContrlPageTabStrip */,
-				9EC9CDB44E3D02DA0542A8399B0897C8 /* Pods-TLControlPieChart */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		C25FE9D4B0A04934C9C088D1D09EBDC2 /* Masonry */ = {
@@ -355,6 +376,20 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		D3451200B95EE9668C7DB0C687DC6DE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2932626636FA2B8B82C9C49545D2C9DB /* DXPopover.bundle */,
+				C107806F1A3A7D060F85C1202D7FE55C /* libDXPopover.a */,
+				FAED4E9E7FC3DE89BDD7ED091968340B /* libiCarousel.a */,
+				CB0BF1B0C2D8B1FD302F3A22208B0496 /* libMasonry.a */,
+				13A778AD82708E322D50273C67E28624 /* libPods-TLContrlPageTabStrip.a */,
+				EEFD66D1CD2B85BF4864503039364E1F /* libPods-TLControlPieChart.a */,
+				7710ED21F32D61674DF0211317E4BF35 /* libPods-TLUIFoundation.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		DFDE779C6E5D3445E0CB8CCB8D424449 /* iOS */ = {
@@ -437,7 +472,7 @@
 			);
 			name = DXPopover;
 			productName = DXPopover;
-			productReference = F8502A74317D376C1FF99EBC4F9AFC8C /* libDXPopover.a */;
+			productReference = C107806F1A3A7D060F85C1202D7FE55C /* libDXPopover.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		53480ED0BE09FF49E34B1702D485CAAB /* Masonry */ = {
@@ -454,7 +489,7 @@
 			);
 			name = Masonry;
 			productName = Masonry;
-			productReference = 0132396BBD06559DA01A51623B74DC37 /* libMasonry.a */;
+			productReference = CB0BF1B0C2D8B1FD302F3A22208B0496 /* libMasonry.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		5FFDDC202E179EF7855BAE58A53E2AA3 /* Pods-TLContrlPageTabStrip */ = {
@@ -473,7 +508,23 @@
 			);
 			name = "Pods-TLContrlPageTabStrip";
 			productName = "Pods-TLContrlPageTabStrip";
-			productReference = 6CD1152F70234C96F5748A6E5BD0C20B /* libPods-TLContrlPageTabStrip.a */;
+			productReference = 13A778AD82708E322D50273C67E28624 /* libPods-TLContrlPageTabStrip.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		652D52395CB8A531444FFFE0532949B7 /* Pods-TLUIFoundation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D8CBA54739B218E01F36C0D76CD6CF2 /* Build configuration list for PBXNativeTarget "Pods-TLUIFoundation" */;
+			buildPhases = (
+				C89E97FCE4E10E02BE0FA3CE3D9C9871 /* Sources */,
+				C68A0A8B11CAB2DFBCAF8C3CBEF50343 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TLUIFoundation";
+			productName = "Pods-TLUIFoundation";
+			productReference = 7710ED21F32D61674DF0211317E4BF35 /* libPods-TLUIFoundation.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		9494390523250106847516AB47E5F9FF /* iCarousel */ = {
@@ -490,7 +541,7 @@
 			);
 			name = iCarousel;
 			productName = iCarousel;
-			productReference = 2AEE3BAE08B4E221957260A3DD65EC2E /* libiCarousel.a */;
+			productReference = FAED4E9E7FC3DE89BDD7ED091968340B /* libiCarousel.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		BB5B21FE0A3C132E01C3FB939AE09C74 /* Pods-TLControlPieChart */ = {
@@ -506,7 +557,7 @@
 			);
 			name = "Pods-TLControlPieChart";
 			productName = "Pods-TLControlPieChart";
-			productReference = 6B1158D98D3112BA36A3FE55708FEEE1 /* libPods-TLControlPieChart.a */;
+			productReference = EEFD66D1CD2B85BF4864503039364E1F /* libPods-TLControlPieChart.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		BD25B2157D8BCA944D6FF3EC2B073ECB /* DXPopover-DXPopover */ = {
@@ -523,7 +574,7 @@
 			);
 			name = "DXPopover-DXPopover";
 			productName = "DXPopover-DXPopover";
-			productReference = 7416C90937EF5ECD2A22CE0FE086AAED /* DXPopover.bundle */;
+			productReference = 2932626636FA2B8B82C9C49545D2C9DB /* DXPopover.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -543,7 +594,7 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 5D1F74B92E098DECA43028AD0EC7B0A0 /* Products */;
+			productRefGroup = D3451200B95EE9668C7DB0C687DC6DE0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -553,6 +604,7 @@
 				53480ED0BE09FF49E34B1702D485CAAB /* Masonry */,
 				5FFDDC202E179EF7855BAE58A53E2AA3 /* Pods-TLContrlPageTabStrip */,
 				BB5B21FE0A3C132E01C3FB939AE09C74 /* Pods-TLControlPieChart */,
+				652D52395CB8A531444FFFE0532949B7 /* Pods-TLUIFoundation */,
 			);
 		};
 /* End PBXProject section */
@@ -597,6 +649,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D3B6F639F76286C32004820C4826AED /* Pods-TLControlPieChart-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C89E97FCE4E10E02BE0FA3CE3D9C9871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9226F5BE3838B5AAFF247762B86A888 /* Pods-TLUIFoundation-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -659,7 +719,7 @@
 /* Begin XCBuildConfiguration section */
 		0FDEC2602A2CFECDE8DAAAB807E1714A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EB3F79171C26B2D112B0CFD0DFBAB698 /* Pods-TLControlPieChart.debug.xcconfig */;
+			baseConfigurationReference = A80DD471E54C7FE30309646D3158FB29 /* Pods-TLControlPieChart.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -762,9 +822,51 @@
 			};
 			name = Debug;
 		};
+		4CD1DA40C6DE4A16ED958952D44A5D0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB3E7898A352DAFD78629DD961E75094 /* Pods-TLUIFoundation.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		76D16090EF52D0CD6EB42577D29E4661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D1B31689195177DEE203B750A304B53 /* Pods-TLUIFoundation.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
 		7D5E43A0B226045C51C7C40DF84094D6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABC952B89F5F4AD19DD2A3E3C0A8F42F /* Pods-TLContrlPageTabStrip.release.xcconfig */;
+			baseConfigurationReference = CCE999786673140014C3FB379E529878 /* Pods-TLContrlPageTabStrip.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -844,7 +946,7 @@
 		};
 		A81C7F40C7595F1F4614B01D040B8785 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A02B3406B7D2B4553EFFFAAC34936C2F /* Pods-TLControlPieChart.release.xcconfig */;
+			baseConfigurationReference = CF7AC7A58CC84682E1BD1BFEE4B762A1 /* Pods-TLControlPieChart.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -865,7 +967,7 @@
 		};
 		C4351D32555DA9D8AA31245470A43774 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E561CD196203E051F3B696DF50B5B1F4 /* Pods-TLContrlPageTabStrip.debug.xcconfig */;
+			baseConfigurationReference = 49FC9BA082151E745FFAD8B083DA0ADB /* Pods-TLContrlPageTabStrip.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -1007,6 +1109,15 @@
 			buildConfigurations = (
 				28E4695D98D0F8D4DEAC7F5D977333E1 /* Debug */,
 				9E3CFDA48CBB983383DC26B1ADCC1419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D8CBA54739B218E01F36C0D76CD6CF2 /* Build configuration list for PBXNativeTarget "Pods-TLUIFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76D16090EF52D0CD6EB42577D29E4661 /* Debug */,
+				4CD1DA40C6DE4A16ED958952D44A5D0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

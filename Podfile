@@ -13,4 +13,8 @@ target 'TLControlPieChart' do
   xcodeproj 'TLControlPieChart/TLControlPieChart.xcodeproj'
 end
 
+target 'TLUIFoundation' do
+  platform :ios, '7.0'
+  xcodeproj 'TLUIFoundation/TLUIFoundation.xcodeproj'
+end
 

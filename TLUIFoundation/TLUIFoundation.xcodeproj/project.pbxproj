@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		7E15EB6B1CEF07E100EC1634 /* TLUIFoundation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7E15EB6A1CEF07E100EC1634 /* TLUIFoundation.h */; };
 		7E15EB6D1CEF07E100EC1634 /* TLUIFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E15EB6C1CEF07E100EC1634 /* TLUIFoundation.m */; };
-		7E15EB781CEF086D00EC1634 /* XTSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E15EB771CEF086D00EC1634 /* XTSegmentControl.m */; };
 		7E15EB821CEF08F600EC1634 /* NSString+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E15EB7B1CEF08F600EC1634 /* NSString+Common.m */; };
 		7E15EB831CEF08F600EC1634 /* UIColor+expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E15EB7D1CEF08F600EC1634 /* UIColor+expanded.m */; };
 		7E15EB841CEF08F600EC1634 /* UILabel+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E15EB7F1CEF08F600EC1634 /* UILabel+Common.m */; };
@@ -18,7 +17,6 @@
 		7E15EB8A1CEF0E3B00EC1634 /* UIColor+expanded.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E15EB7C1CEF08F600EC1634 /* UIColor+expanded.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7E15EB8B1CEF0E3B00EC1634 /* UILabel+Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E15EB7E1CEF08F600EC1634 /* UILabel+Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7E15EB8C1CEF0E3B00EC1634 /* UIView+Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E15EB801CEF08F600EC1634 /* UIView+Frame.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7E15EB8D1CEF0E3B00EC1634 /* XTSegmentControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E15EB761CEF086D00EC1634 /* XTSegmentControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7E15EB8E1CEF0E3B00EC1634 /* TLUIFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E15EB6A1CEF07E100EC1634 /* TLUIFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E05371E1F7312E5F17D24CB1 /* libPods-TLUIFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E7FAA56AAE73D25BDC8995 /* libPods-TLUIFoundation.a */; };
 /* End PBXBuildFile section */
@@ -41,10 +39,6 @@
 		7E15EB671CEF07E100EC1634 /* libTLUIFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTLUIFoundation.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E15EB6A1CEF07E100EC1634 /* TLUIFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLUIFoundation.h; sourceTree = "<group>"; };
 		7E15EB6C1CEF07E100EC1634 /* TLUIFoundation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLUIFoundation.m; sourceTree = "<group>"; };
-		7E15EB741CEF086D00EC1634 /* icon_more@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_more@2x.png"; sourceTree = "<group>"; };
-		7E15EB751CEF086D00EC1634 /* icon_more@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_more@3x.png"; sourceTree = "<group>"; };
-		7E15EB761CEF086D00EC1634 /* XTSegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTSegmentControl.h; sourceTree = "<group>"; };
-		7E15EB771CEF086D00EC1634 /* XTSegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTSegmentControl.m; sourceTree = "<group>"; };
 		7E15EB7A1CEF08F600EC1634 /* NSString+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Common.h"; sourceTree = "<group>"; };
 		7E15EB7B1CEF08F600EC1634 /* NSString+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Common.m"; sourceTree = "<group>"; };
 		7E15EB7C1CEF08F600EC1634 /* UIColor+expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+expanded.h"; sourceTree = "<group>"; };
@@ -108,22 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				7E15EB791CEF08F600EC1634 /* Common */,
-				7E15EB731CEF086D00EC1634 /* XTSegmentControl */,
 				7E15EB6A1CEF07E100EC1634 /* TLUIFoundation.h */,
 				7E15EB6C1CEF07E100EC1634 /* TLUIFoundation.m */,
 			);
 			path = TLUIFoundation;
-			sourceTree = "<group>";
-		};
-		7E15EB731CEF086D00EC1634 /* XTSegmentControl */ = {
-			isa = PBXGroup;
-			children = (
-				7E15EB741CEF086D00EC1634 /* icon_more@2x.png */,
-				7E15EB751CEF086D00EC1634 /* icon_more@3x.png */,
-				7E15EB761CEF086D00EC1634 /* XTSegmentControl.h */,
-				7E15EB771CEF086D00EC1634 /* XTSegmentControl.m */,
-			);
-			path = XTSegmentControl;
 			sourceTree = "<group>";
 		};
 		7E15EB791CEF08F600EC1634 /* Common */ = {
@@ -152,7 +134,6 @@
 				7E15EB8A1CEF0E3B00EC1634 /* UIColor+expanded.h in Headers */,
 				7E15EB8B1CEF0E3B00EC1634 /* UILabel+Common.h in Headers */,
 				7E15EB8C1CEF0E3B00EC1634 /* UIView+Frame.h in Headers */,
-				7E15EB8D1CEF0E3B00EC1634 /* XTSegmentControl.h in Headers */,
 				7E15EB8E1CEF0E3B00EC1634 /* TLUIFoundation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,7 +235,6 @@
 				7E15EB821CEF08F600EC1634 /* NSString+Common.m in Sources */,
 				7E15EB831CEF08F600EC1634 /* UIColor+expanded.m in Sources */,
 				7E15EB841CEF08F600EC1634 /* UILabel+Common.m in Sources */,
-				7E15EB781CEF086D00EC1634 /* XTSegmentControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

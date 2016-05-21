@@ -8,6 +8,9 @@
       location = "group:TLControlPieChart/TLControlPieChart.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:TLUIFoundation/TLUIFoundation.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>
