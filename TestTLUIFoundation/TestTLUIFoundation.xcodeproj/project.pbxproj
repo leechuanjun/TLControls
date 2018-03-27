@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E1D51CA206A1EE500240836 /* TLButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1D51C9206A1EE500240836 /* TLButtonViewController.m */; };
+		7E1D51CD206A1F7E00240836 /* TLTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1D51CC206A1F7E00240836 /* TLTableViewController.m */; };
+		7E1D51DF206A2F8400240836 /* TLTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1D51DE206A2F8400240836 /* TLTableCell.m */; };
+		7E1D51E8206A369B00240836 /* TLCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1D51E7206A369B00240836 /* TLCollectionViewController.m */; };
+		7E1D51EB206A37A900240836 /* TLCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1D51EA206A37A900240836 /* TLCollectionCell.m */; };
+		7E6B21E3206A1400001F82CA /* libTLUIFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6B21E4206A1400001F82CA /* libTLUIFoundation.a */; };
+		7E6B21E5206A1409001F82CA /* libPods-TestTLUIFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6B21E6206A1409001F82CA /* libPods-TestTLUIFoundation.a */; };
+		7E820C2B2069EDE8001D1182 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E820C2A2069EDE8001D1182 /* AppDelegate.m */; };
+		7E820C2E2069EDE8001D1182 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E820C2D2069EDE8001D1182 /* RootViewController.m */; };
+		7E820C332069EDE8001D1182 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E820C322069EDE8001D1182 /* Assets.xcassets */; };
+		7E820C362069EDE8001D1182 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E820C342069EDE8001D1182 /* LaunchScreen.storyboard */; };
+		7E820C392069EDE8001D1182 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E820C382069EDE8001D1182 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		48DF1DF4DC9F8AF8379888D5 /* Pods-TestTLUIFoundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTLUIFoundation.release.xcconfig"; path = "../Pods/Target Support Files/Pods-TestTLUIFoundation/Pods-TestTLUIFoundation.release.xcconfig"; sourceTree = "<group>"; };
+		7E1D51C5206A17C100240836 /* libMasonry.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMasonry.a; path = "../Build/Products/Debug-iphonesimulator/Masonry/libMasonry.a"; sourceTree = "<group>"; };
+		7E1D51C8206A1EE500240836 /* TLButtonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLButtonViewController.h; sourceTree = "<group>"; };
+		7E1D51C9206A1EE500240836 /* TLButtonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLButtonViewController.m; sourceTree = "<group>"; };
+		7E1D51CB206A1F7E00240836 /* TLTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLTableViewController.h; sourceTree = "<group>"; };
+		7E1D51CC206A1F7E00240836 /* TLTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLTableViewController.m; sourceTree = "<group>"; };
+		7E1D51DD206A2F8400240836 /* TLTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLTableCell.h; sourceTree = "<group>"; };
+		7E1D51DE206A2F8400240836 /* TLTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLTableCell.m; sourceTree = "<group>"; };
+		7E1D51E6206A369B00240836 /* TLCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLCollectionViewController.h; sourceTree = "<group>"; };
+		7E1D51E7206A369B00240836 /* TLCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLCollectionViewController.m; sourceTree = "<group>"; };
+		7E1D51E9206A37A900240836 /* TLCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLCollectionCell.h; sourceTree = "<group>"; };
+		7E1D51EA206A37A900240836 /* TLCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLCollectionCell.m; sourceTree = "<group>"; };
+		7E6B21E2206A12A8001F82CA /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E6B21E4206A1400001F82CA /* libTLUIFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libTLUIFoundation.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E6B21E6206A1409001F82CA /* libPods-TestTLUIFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-TestTLUIFoundation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E6B21E8206A1410001F82CA /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E820C262069EDE8001D1182 /* TestTLUIFoundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTLUIFoundation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E820C292069EDE8001D1182 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7E820C2A2069EDE8001D1182 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7E820C2C2069EDE8001D1182 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		7E820C2D2069EDE8001D1182 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		7E820C322069EDE8001D1182 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E820C352069EDE8001D1182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E820C372069EDE8001D1182 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E820C382069EDE8001D1182 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E820C412069F02E001D1182 /* libTLUIFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libTLUIFoundation.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A92E5A37CE071B5663489EE4 /* Pods-TestTLUIFoundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTLUIFoundation.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-TestTLUIFoundation/Pods-TestTLUIFoundation.debug.xcconfig"; sourceTree = "<group>"; };
+		BFECD90D419C29759802D3E6 /* libPods-TestTLUIFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestTLUIFoundation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E820C232069EDE8001D1182 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6B21E5206A1409001F82CA /* libPods-TestTLUIFoundation.a in Frameworks */,
+				7E6B21E3206A1400001F82CA /* libTLUIFoundation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E1D51C7206A1ECF00240836 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7E1D51C8206A1EE500240836 /* TLButtonViewController.h */,
+				7E1D51C9206A1EE500240836 /* TLButtonViewController.m */,
+				7E1D51CB206A1F7E00240836 /* TLTableViewController.h */,
+				7E1D51CC206A1F7E00240836 /* TLTableViewController.m */,
+				7E1D51E6206A369B00240836 /* TLCollectionViewController.h */,
+				7E1D51E7206A369B00240836 /* TLCollectionViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7E1D51D4206A228900240836 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7E1D51DD206A2F8400240836 /* TLTableCell.h */,
+				7E1D51DE206A2F8400240836 /* TLTableCell.m */,
+				7E1D51E9206A37A900240836 /* TLCollectionCell.h */,
+				7E1D51EA206A37A900240836 /* TLCollectionCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7E820C1D2069EDE8001D1182 = {
+			isa = PBXGroup;
+			children = (
+				7E820C282069EDE8001D1182 /* TestTLUIFoundation */,
+				7E820C272069EDE8001D1182 /* Products */,
+				7E820C3F2069F02E001D1182 /* Frameworks */,
+				9794FAC6B6C3D4DA0DD8442F /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		7E820C272069EDE8001D1182 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E820C262069EDE8001D1182 /* TestTLUIFoundation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E820C282069EDE8001D1182 /* TestTLUIFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				7E1D51D4206A228900240836 /* View */,
+				7E1D51C7206A1ECF00240836 /* Controller */,
+				7E820C292069EDE8001D1182 /* AppDelegate.h */,
+				7E820C2A2069EDE8001D1182 /* AppDelegate.m */,
+				7E820C2C2069EDE8001D1182 /* RootViewController.h */,
+				7E820C2D2069EDE8001D1182 /* RootViewController.m */,
+				7E820C322069EDE8001D1182 /* Assets.xcassets */,
+				7E820C342069EDE8001D1182 /* LaunchScreen.storyboard */,
+				7E820C372069EDE8001D1182 /* Info.plist */,
+				7E820C382069EDE8001D1182 /* main.m */,
+			);
+			path = TestTLUIFoundation;
+			sourceTree = "<group>";
+		};
+		7E820C3F2069F02E001D1182 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E6B21E8206A1410001F82CA /* libMasonry.a */,
+				7E1D51C5206A17C100240836 /* libMasonry.a */,
+				7E6B21E6206A1409001F82CA /* libPods-TestTLUIFoundation.a */,
+				7E6B21E4206A1400001F82CA /* libTLUIFoundation.a */,
+				7E6B21E2206A12A8001F82CA /* libMasonry.a */,
+				7E820C412069F02E001D1182 /* libTLUIFoundation.a */,
+				BFECD90D419C29759802D3E6 /* libPods-TestTLUIFoundation.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9794FAC6B6C3D4DA0DD8442F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A92E5A37CE071B5663489EE4 /* Pods-TestTLUIFoundation.debug.xcconfig */,
+				48DF1DF4DC9F8AF8379888D5 /* Pods-TestTLUIFoundation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E820C252069EDE8001D1182 /* TestTLUIFoundation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E820C3C2069EDE8001D1182 /* Build configuration list for PBXNativeTarget "TestTLUIFoundation" */;
+			buildPhases = (
+				7535B752436A713C7A26CA69 /* [CP] Check Pods Manifest.lock */,
+				7E820C222069EDE8001D1182 /* Sources */,
+				7E820C232069EDE8001D1182 /* Frameworks */,
+				7E820C242069EDE8001D1182 /* Resources */,
+				6E827935CEBC3368FBEBF518 /* [CP] Embed Pods Frameworks */,
+				F6720C8CBA0B96E1F869EB78 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestTLUIFoundation;
+			productName = TestTLUIFoundation;
+			productReference = 7E820C262069EDE8001D1182 /* TestTLUIFoundation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E820C1E2069EDE8001D1182 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = lichuanjun;
+				TargetAttributes = {
+					7E820C252069EDE8001D1182 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7E820C212069EDE8001D1182 /* Build configuration list for PBXProject "TestTLUIFoundation" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E820C1D2069EDE8001D1182;
+			productRefGroup = 7E820C272069EDE8001D1182 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E820C252069EDE8001D1182 /* TestTLUIFoundation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E820C242069EDE8001D1182 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E820C362069EDE8001D1182 /* LaunchScreen.storyboard in Resources */,
+				7E820C332069EDE8001D1182 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6E827935CEBC3368FBEBF518 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-TestTLUIFoundation/Pods-TestTLUIFoundation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7535B752436A713C7A26CA69 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestTLUIFoundation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6720C8CBA0B96E1F869EB78 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-TestTLUIFoundation/Pods-TestTLUIFoundation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E820C222069EDE8001D1182 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E820C2E2069EDE8001D1182 /* RootViewController.m in Sources */,
+				7E1D51EB206A37A900240836 /* TLCollectionCell.m in Sources */,
+				7E820C392069EDE8001D1182 /* main.m in Sources */,
+				7E1D51CA206A1EE500240836 /* TLButtonViewController.m in Sources */,
+				7E1D51CD206A1F7E00240836 /* TLTableViewController.m in Sources */,
+				7E1D51E8206A369B00240836 /* TLCollectionViewController.m in Sources */,
+				7E1D51DF206A2F8400240836 /* TLTableCell.m in Sources */,
+				7E820C2B2069EDE8001D1182 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7E820C342069EDE8001D1182 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E820C352069EDE8001D1182 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E820C3A2069EDE8001D1182 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7E820C3B2069EDE8001D1182 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E820C3D2069EDE8001D1182 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A92E5A37CE071B5663489EE4 /* Pods-TestTLUIFoundation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"$(PROJECT_DIR)/Build/Products/Debug-iphonesimulator/include",
+				);
+				INFOPLIST_FILE = TestTLUIFoundation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Masonry\"",
+					"$(PROJECT_DIR)/Build/Products/Debug-iphonesimulator",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.licj.TestTLUIFoundation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E820C3E2069EDE8001D1182 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48DF1DF4DC9F8AF8379888D5 /* Pods-TestTLUIFoundation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"$(PROJECT_DIR)/Build/Products/Debug-iphonesimulator/include",
+				);
+				INFOPLIST_FILE = TestTLUIFoundation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Masonry\"",
+					"$(PROJECT_DIR)/Build/Products/Debug-iphonesimulator",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.licj.TestTLUIFoundation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E820C212069EDE8001D1182 /* Build configuration list for PBXProject "TestTLUIFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E820C3A2069EDE8001D1182 /* Debug */,
+				7E820C3B2069EDE8001D1182 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E820C3C2069EDE8001D1182 /* Build configuration list for PBXNativeTarget "TestTLUIFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E820C3D2069EDE8001D1182 /* Debug */,
+				7E820C3E2069EDE8001D1182 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E820C1E2069EDE8001D1182 /* Project object */;
+}

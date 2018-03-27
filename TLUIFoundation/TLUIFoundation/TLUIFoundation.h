@@ -8,9 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
-#import "Common/UILabel+Common.h"
-#import "Common/UIColor+expanded.h"
-#import "Common/UIView+Frame.h"
+#import "UILabel+Common.h"
+#import "UIColor+expanded.h"
+#import "UIView+Frame.h"
+
+#import "TLButtonBlock.h"
+#import "TLTableViewDataSource.h"
+#import "TLCollectionViewDataSource.h"
 
 @interface TLUIFoundation : NSObject
 

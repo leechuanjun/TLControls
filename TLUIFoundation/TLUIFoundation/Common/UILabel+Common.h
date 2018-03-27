@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "NSString+Common.h"
+
 @interface UILabel (Common)
 
 - (void) setLongString:(NSString *)str withFitWidth:(CGFloat)width;

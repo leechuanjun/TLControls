@@ -13,11 +13,24 @@
 		7E15EB831CEF08F600EC1634 /* UIColor+expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E15EB7D1CEF08F600EC1634 /* UIColor+expanded.m */; };
 		7E15EB841CEF08F600EC1634 /* UILabel+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E15EB7F1CEF08F600EC1634 /* UILabel+Common.m */; };
 		7E15EB851CEF08F600EC1634 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E15EB811CEF08F600EC1634 /* UIView+Frame.m */; };
-		7E15EB891CEF0E3B00EC1634 /* NSString+Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E15EB7A1CEF08F600EC1634 /* NSString+Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7E15EB8A1CEF0E3B00EC1634 /* UIColor+expanded.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E15EB7C1CEF08F600EC1634 /* UIColor+expanded.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7E15EB8B1CEF0E3B00EC1634 /* UILabel+Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E15EB7E1CEF08F600EC1634 /* UILabel+Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7E15EB8C1CEF0E3B00EC1634 /* UIView+Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E15EB801CEF08F600EC1634 /* UIView+Frame.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7E15EB8E1CEF0E3B00EC1634 /* TLUIFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E15EB6A1CEF07E100EC1634 /* TLUIFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E15EB891CEF0E3B00EC1634 /* NSString+Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E15EB7A1CEF08F600EC1634 /* NSString+Common.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7E15EB8A1CEF0E3B00EC1634 /* UIColor+expanded.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E15EB7C1CEF08F600EC1634 /* UIColor+expanded.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7E15EB8B1CEF0E3B00EC1634 /* UILabel+Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E15EB7E1CEF08F600EC1634 /* UILabel+Common.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7E15EB8C1CEF0E3B00EC1634 /* UIView+Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E15EB801CEF08F600EC1634 /* UIView+Frame.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7E15EB8E1CEF0E3B00EC1634 /* TLUIFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E15EB6A1CEF07E100EC1634 /* TLUIFoundation.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7E1D51D1206A207100240836 /* TLTableViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E1D51CF206A207100240836 /* TLTableViewDataSource.h */; };
+		7E1D51D2206A207100240836 /* TLTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1D51D0206A207100240836 /* TLTableViewDataSource.m */; };
+		7E1D51D3206A215500240836 /* TLTableViewDataSource.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7E1D51CF206A207100240836 /* TLTableViewDataSource.h */; };
+		7E1D51E3206A35FB00240836 /* TLCollectionViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E1D51E1206A35FB00240836 /* TLCollectionViewDataSource.h */; };
+		7E1D51E4206A35FB00240836 /* TLCollectionViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1D51E2206A35FB00240836 /* TLCollectionViewDataSource.m */; };
+		7E1D51E5206A367200240836 /* TLCollectionViewDataSource.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7E1D51E1206A35FB00240836 /* TLCollectionViewDataSource.h */; };
+		7E2E3FE02069F3BB008BE187 /* TLButtonBlock.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7E820C192069ED2B001D1182 /* TLButtonBlock.h */; };
+		7E820C1B2069ED2B001D1182 /* TLButtonBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E820C192069ED2B001D1182 /* TLButtonBlock.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7E820C1C2069ED2B001D1182 /* TLButtonBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E820C1A2069ED2B001D1182 /* TLButtonBlock.m */; };
+		7E820C422069F202001D1182 /* NSString+Common.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7E15EB7A1CEF08F600EC1634 /* NSString+Common.h */; };
+		7E820C432069F202001D1182 /* UIColor+expanded.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7E15EB7C1CEF08F600EC1634 /* UIColor+expanded.h */; };
+		7E820C442069F202001D1182 /* UILabel+Common.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7E15EB7E1CEF08F600EC1634 /* UILabel+Common.h */; };
+		7E820C452069F202001D1182 /* UIView+Frame.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7E15EB801CEF08F600EC1634 /* UIView+Frame.h */; };
 		E05371E1F7312E5F17D24CB1 /* libPods-TLUIFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E7FAA56AAE73D25BDC8995 /* libPods-TLUIFoundation.a */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +41,13 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				7E1D51E5206A367200240836 /* TLCollectionViewDataSource.h in CopyFiles */,
+				7E1D51D3206A215500240836 /* TLTableViewDataSource.h in CopyFiles */,
+				7E2E3FE02069F3BB008BE187 /* TLButtonBlock.h in CopyFiles */,
+				7E820C422069F202001D1182 /* NSString+Common.h in CopyFiles */,
+				7E820C432069F202001D1182 /* UIColor+expanded.h in CopyFiles */,
+				7E820C442069F202001D1182 /* UILabel+Common.h in CopyFiles */,
+				7E820C452069F202001D1182 /* UIView+Frame.h in CopyFiles */,
 				7E15EB6B1CEF07E100EC1634 /* TLUIFoundation.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -47,6 +67,12 @@
 		7E15EB7F1CEF08F600EC1634 /* UILabel+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Common.m"; sourceTree = "<group>"; };
 		7E15EB801CEF08F600EC1634 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		7E15EB811CEF08F600EC1634 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		7E1D51CF206A207100240836 /* TLTableViewDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLTableViewDataSource.h; sourceTree = "<group>"; };
+		7E1D51D0206A207100240836 /* TLTableViewDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLTableViewDataSource.m; sourceTree = "<group>"; };
+		7E1D51E1206A35FB00240836 /* TLCollectionViewDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLCollectionViewDataSource.h; sourceTree = "<group>"; };
+		7E1D51E2206A35FB00240836 /* TLCollectionViewDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLCollectionViewDataSource.m; sourceTree = "<group>"; };
+		7E820C192069ED2B001D1182 /* TLButtonBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLButtonBlock.h; sourceTree = "<group>"; };
+		7E820C1A2069ED2B001D1182 /* TLButtonBlock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLButtonBlock.m; sourceTree = "<group>"; };
 		99E7FAA56AAE73D25BDC8995 /* libPods-TLUIFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TLUIFoundation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E25B334A746E4735E3652295 /* Pods-TLUIFoundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLUIFoundation.release.xcconfig"; path = "../Pods/Target Support Files/Pods-TLUIFoundation/Pods-TLUIFoundation.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,6 +127,9 @@
 		7E15EB691CEF07E100EC1634 /* TLUIFoundation */ = {
 			isa = PBXGroup;
 			children = (
+				7E1D51E0206A35D100240836 /* TLCollectionViewBlock */,
+				7E1D51CE206A202900240836 /* TLTableViewBlock */,
+				7E820C182069ED01001D1182 /* TLButtonBlock */,
 				7E15EB791CEF08F600EC1634 /* Common */,
 				7E15EB6A1CEF07E100EC1634 /* TLUIFoundation.h */,
 				7E15EB6C1CEF07E100EC1634 /* TLUIFoundation.m */,
@@ -123,6 +152,33 @@
 			path = Common;
 			sourceTree = "<group>";
 		};
+		7E1D51CE206A202900240836 /* TLTableViewBlock */ = {
+			isa = PBXGroup;
+			children = (
+				7E1D51CF206A207100240836 /* TLTableViewDataSource.h */,
+				7E1D51D0206A207100240836 /* TLTableViewDataSource.m */,
+			);
+			path = TLTableViewBlock;
+			sourceTree = "<group>";
+		};
+		7E1D51E0206A35D100240836 /* TLCollectionViewBlock */ = {
+			isa = PBXGroup;
+			children = (
+				7E1D51E1206A35FB00240836 /* TLCollectionViewDataSource.h */,
+				7E1D51E2206A35FB00240836 /* TLCollectionViewDataSource.m */,
+			);
+			path = TLCollectionViewBlock;
+			sourceTree = "<group>";
+		};
+		7E820C182069ED01001D1182 /* TLButtonBlock */ = {
+			isa = PBXGroup;
+			children = (
+				7E820C192069ED2B001D1182 /* TLButtonBlock.h */,
+				7E820C1A2069ED2B001D1182 /* TLButtonBlock.m */,
+			);
+			path = TLButtonBlock;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -134,7 +190,10 @@
 				7E15EB8A1CEF0E3B00EC1634 /* UIColor+expanded.h in Headers */,
 				7E15EB8B1CEF0E3B00EC1634 /* UILabel+Common.h in Headers */,
 				7E15EB8C1CEF0E3B00EC1634 /* UIView+Frame.h in Headers */,
+				7E1D51E3206A35FB00240836 /* TLCollectionViewDataSource.h in Headers */,
+				7E820C1B2069ED2B001D1182 /* TLButtonBlock.h in Headers */,
 				7E15EB8E1CEF0E3B00EC1634 /* TLUIFoundation.h in Headers */,
+				7E1D51D1206A207100240836 /* TLTableViewDataSource.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,11 +204,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E15EB701CEF07E100EC1634 /* Build configuration list for PBXNativeTarget "TLUIFoundation" */;
 			buildPhases = (
-				1FF4CAFC4DE95C9BA818B93E /* 📦 Check Pods Manifest.lock */,
+				1FF4CAFC4DE95C9BA818B93E /* [CP] Check Pods Manifest.lock */,
 				7E15EB631CEF07E100EC1634 /* Sources */,
 				7E15EB641CEF07E100EC1634 /* Frameworks */,
 				7E15EB651CEF07E100EC1634 /* CopyFiles */,
-				4152F73623C3CB9A753ED68A /* 📦 Copy Pods Resources */,
+				4152F73623C3CB9A753ED68A /* [CP] Copy Pods Resources */,
 				7E15EB881CEF0E2800EC1634 /* Headers */,
 			);
 			buildRules = (
@@ -193,29 +252,32 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1FF4CAFC4DE95C9BA818B93E /* 📦 Check Pods Manifest.lock */ = {
+		1FF4CAFC4DE95C9BA818B93E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TLUIFoundation-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4152F73623C3CB9A753ED68A /* 📦 Copy Pods Resources */ = {
+		4152F73623C3CB9A753ED68A /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -231,10 +293,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E15EB851CEF08F600EC1634 /* UIView+Frame.m in Sources */,
+				7E1D51E4206A35FB00240836 /* TLCollectionViewDataSource.m in Sources */,
 				7E15EB6D1CEF07E100EC1634 /* TLUIFoundation.m in Sources */,
+				7E1D51D2206A207100240836 /* TLTableViewDataSource.m in Sources */,
 				7E15EB821CEF08F600EC1634 /* NSString+Common.m in Sources */,
 				7E15EB831CEF08F600EC1634 /* UIColor+expanded.m in Sources */,
 				7E15EB841CEF08F600EC1634 /* UILabel+Common.m in Sources */,
+				7E820C1C2069ED2B001D1182 /* TLButtonBlock.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,8 +392,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2DB2D2F9E35F369603346A0D /* Pods-TLUIFoundation.debug.xcconfig */;
 			buildSettings = {
+				INSTALL_PATH = include/TLUIFoundation;
 				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = include/TLUIFoundation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = include/TLUIFoundation;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -337,8 +405,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E25B334A746E4735E3652295 /* Pods-TLUIFoundation.release.xcconfig */;
 			buildSettings = {
+				INSTALL_PATH = include/TLUIFoundation;
 				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = include/TLUIFoundation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = include/TLUIFoundation;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;

@@ -171,12 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E15EB5B1CEEE54300EC1634 /* Build configuration list for PBXNativeTarget "TLContrlPageTabStrip" */;
 			buildPhases = (
-				E5972851D754CB9062137F3D /* 📦 Check Pods Manifest.lock */,
+				E5972851D754CB9062137F3D /* [CP] Check Pods Manifest.lock */,
 				7E15EB401CEEE54300EC1634 /* Sources */,
 				7E15EB411CEEE54300EC1634 /* Frameworks */,
 				7E15EB421CEEE54300EC1634 /* Resources */,
-				1D6A265D90492E7A4CDD9A51 /* 📦 Embed Pods Frameworks */,
-				1EDC482DA3BBDDB4D43A2783 /* 📦 Copy Pods Resources */,
+				1D6A265D90492E7A4CDD9A51 /* [CP] Embed Pods Frameworks */,
+				1EDC482DA3BBDDB4D43A2783 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,14 +234,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1D6A265D90492E7A4CDD9A51 /* 📦 Embed Pods Frameworks */ = {
+		1D6A265D90492E7A4CDD9A51 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,34 +249,40 @@
 			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-TLContrlPageTabStrip/Pods-TLContrlPageTabStrip-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		1EDC482DA3BBDDB4D43A2783 /* 📦 Copy Pods Resources */ = {
+		1EDC482DA3BBDDB4D43A2783 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/../Pods/Target Support Files/Pods-TLContrlPageTabStrip/Pods-TLContrlPageTabStrip-resources.sh",
+				"$PODS_CONFIGURATION_BUILD_DIR/DXPopover/DXPopover.bundle",
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-TLContrlPageTabStrip/Pods-TLContrlPageTabStrip-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E5972851D754CB9062137F3D /* 📦 Check Pods Manifest.lock */ = {
+		E5972851D754CB9062137F3D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TLContrlPageTabStrip-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

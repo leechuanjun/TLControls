@@ -1,5 +1,11 @@
 workspace 'TLControls.xcworkspace'
 
+target 'TestTLUIFoundation' do
+    platform :ios, '7.0'
+    xcodeproj 'TestTLUIFoundation/TestTLUIFoundation.xcodeproj'
+    pod 'Masonry', '~> 1.0.0'
+end
+
 target 'TLContrlPageTabStrip' do
   platform :ios, '7.0'
   xcodeproj 'TLContrlPageTabStrip/TLContrlPageTabStrip.xcodeproj'

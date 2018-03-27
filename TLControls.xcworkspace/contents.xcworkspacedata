@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:TestTLUIFoundation/TestTLUIFoundation.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:TLContrlPageTabStrip/TLContrlPageTabStrip.xcodeproj">
    </FileRef>
    <FileRef
